@@ -37,8 +37,8 @@ public class Booking {
 
     @Override
     public String toString() {
-      return guest.getName() + " booked Room " + room.getType() +
-               " | Total: " + calculateCost(pricePerNight);
+      return guest.getName() + " booked Room " + room.getRoomNumber() + " | Type: " + room.getType() + " | Stay duration: " + guest.getStayDuration() +
+               " | Total Revenue: " + calculateCost(pricePerNight);
     }
 
 }

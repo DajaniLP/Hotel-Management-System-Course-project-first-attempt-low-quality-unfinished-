@@ -49,12 +49,6 @@ public class Main {
 
                 case 2:
 
-
-                    if (room == null) {
-                        System.out.println("No available rooms! Please add a room first.");
-                        break;
-                    }
-
                     keyboard.nextLine();
 
                     System.out.print("Enter guest name: ");
@@ -68,10 +62,25 @@ public class Main {
                     int stayDuration = keyboard.nextInt();
                     keyboard.nextLine();
 
-                    Guest guest = new Guest(name, stayDuration);
-                    guest.setRoomNumber(roomNumber);
+                    Room selectedRoom = null;
 
-                    Booking booking = new Booking(guest, room1, 50);
+                    for (Room r : manager.getRooms()) {
+
+                        if (r != null && r.getRoomNumber() == roomNumber) {
+                            selectedRoom = r;
+                            break;
+                        }
+                    }
+
+                    if (selectedRoom == null) {
+                        System.out.println("Room not found!");
+                        break;
+                    }
+
+                    Guest guest = new Guest(name, stayDuration);
+                    
+
+                    Booking booking = new Booking(guest, selectedRoom, 50);
                     booking.confirmBooking(50);
 
                     manager.addBooking(booking);
