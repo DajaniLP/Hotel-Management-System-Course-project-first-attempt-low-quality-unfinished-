@@ -1,0 +1,17 @@
+Saud Al-Dajani booked Room SINGLE | Total: 2400.0
+omar abo laban booked Room DOUBLE | Total: 400.0
+ booked Room SINGLE | Total: 400.0
+ booked Room SINGLE | Total: 600.0
+ booked Room SINGLE | Total: 400.0
+ booked Room SINGLE | Total: 800.0
+ booked Room SINGLE | Total: 800.0
+ booked Room SINGLE | Total: 800.0
+ booked Room SINGLE | Total: 1000.0
+ booked Room SINGLE | Total: 1000.0
+saud booked Room SINGLE | Total: 400.0
+Saud booked Room SUITE | Total: 6000.0
+Saud booked Room SINGLE | Total: 2000.0
+saud booked Room SINGLE | Total: 2000.0
+saud booked Room SINGLE | Total: 2000.0
+saud booked Room SINGLE | Total: 2000.0
+Saud booked Room SINGLE | Total: 350.0
